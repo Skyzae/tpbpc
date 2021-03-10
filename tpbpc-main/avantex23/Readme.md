@@ -1,6 +1,6 @@
-# TP d'introduction à la pratique du lanange C
+# TP thème 2 
 
-Ce dépôt correspond au premier TP de PDC, dont le sujet est `tp_theme2.pdf`.
+Ce dépôt correspond au TP theme 2 de BDC, dont le sujet est `tp_theme2.pdf`.
 
 ##  Instructions pour rendre votre travail avec gitlab
 

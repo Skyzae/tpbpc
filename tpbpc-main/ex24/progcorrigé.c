@@ -10,7 +10,7 @@ int main () {
 int tab [10] = { 1, 5, 8, 3, 1, 9, 10, 25, 32, 42};
 int i ;
 int sum = 0;
-for ( i = 0 ; i <= 10 ; i ++) {
+for ( i = 0 ; i < 10 ; i ++) {
 sum = sum + tab[i] ;
 }
 foo(sum) ;

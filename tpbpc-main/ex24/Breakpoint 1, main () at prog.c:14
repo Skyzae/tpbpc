@@ -1,0 +1,78 @@
+Breakpoint 1, main () at prog.c:14
+14	sum = sum + tab[i] ;
+(gdb) print i
+$4 = 0
+(gdb) print sum
+$5 = 0
+(gdb) step
+13	for ( i = 0 ; i <= 10 ; i ++) {
+(gdb) print i
+$6 = 0
+(gdb) print sum
+$7 = 1
+(gdb) step
+
+Breakpoint 1, main () at prog.c:14
+14	sum = sum + tab[i] ;
+(gdb) print i
+$8 = 1
+(gdb) print sum
+$9 = 1
+(gdb) step
+13	for ( i = 0 ; i <= 10 ; i ++) {
+(gdb) print i
+$10 = 1
+(gdb) print sum
+$11 = 6
+
+
+...
+
+13	for ( i = 0 ; i <= 10 ; i ++) {
+(gdb) print i
+$27 = 9
+(gdb) print sum
+$28 = 136
+
+...
+
+13	for ( i = 0 ; i <= 10 ; i ++) {
+(gdb) print i
+$18 = 10
+(gdb) print sum
+$19 = -1016558968
+
+
+
+...
+
+(gdb) print (foo(sum))
+foo() appele avec: -1016558968
+$20 = void
+
+...
+
+(gdb) print (bar(sum))
+foo() appele avec : -1016558968
+$21 = void
+
+
+...
+
+Breakpoint 1, main () at prog.c:14
+14	sum = sum + tab[i] ;
+(gdb) print i
+$29 = 10
+(gdb) print sum
+$30 = 136
+(gdb) next
+13	for ( i = 0 ; i <= 10 ; i ++) {
+(gdb) print i
+$31 = 10
+(gdb) print sum
+$32 = 40360328
+
+
+
+
+
