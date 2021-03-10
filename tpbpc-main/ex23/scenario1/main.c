@@ -1,5 +1,5 @@
-#include  "foo.h"
+#include "foo.h"
 
-int  main (){
+int main (){
 	foo () ;
 }
