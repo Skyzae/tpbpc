@@ -1,0 +1,16 @@
+void foo ( int s ){
+printf("foo() appele avec: %d\n" , s);
+}
+void bar ( i n t s ) {
+printf( "foo() appele avec : %d\n" , s);
+}
+int main () {
+int tab [10] = { 1, 5, 8, 3, 1, 9, 10, 25, 32, 42};
+int i ;
+int sum = 0;
+for ( i = 0 ; i <= 10 ; i ++) {
+sum = sum + tab[i] ;
+}
+foo(sum) ;
+bar(sum) ;
+}
