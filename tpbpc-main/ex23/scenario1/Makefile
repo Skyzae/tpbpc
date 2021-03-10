@@ -1,7 +1,7 @@
 all: main
 
-main: main.o
-	cc -o main main.o 
+main: main.o foo.o
+	cc -o main main.o foo.o
 
 main.o : main.c
 	cc -c main.c
